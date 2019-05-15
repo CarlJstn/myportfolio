@@ -188,11 +188,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px white solid; }
-    .projects img:hover {
-      opacity: 0.8;
-      border-color: #229954;
-      transition: all 0.4s ease-out; }
+    border: 3px white solid;
+    cursor: default; }
 
 .boxes {
   display: flex;
@@ -220,7 +217,8 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #229954;
-    color: #fff; }
+    color: #fff;
+    transition: all 0.4s ease-out; }
 
 .btn-dark {
   text-align: center;
